@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.code-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.copy-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+.save-button {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+}
+
+.lock-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  &.locked {
+    background-color: #f39c12;
+  }
+}
